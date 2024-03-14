@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
 
-        <Slider dataSlider={dataSlider[0]}/>
+        <Slider dataSlider={dataSlider[0].photo} />
 
-        <Slider dataSlider={dataSlider[1]}/>
+        <Slider dataSlider={dataSlider[1].photo} />
 
-        <Slider dataSlider={dataSlider[2]}/>
+        <Slider dataSlider={dataSlider[2].photo} />
 
     </div>
   );
